@@ -57,6 +57,7 @@ import org.bitcoinj.net.discovery.PeerDiscoveryException;
 import org.bitcoinj.store.BlockStore;
 import org.bitcoinj.store.BlockStoreException;
 import org.bitcoinj.store.SPVBlockStore;
+import org.bitcoinj.store.ValidHashStore;
 import org.bitcoinj.utils.MonetaryFormat;
 import org.bitcoinj.utils.Threading;
 import org.bitcoinj.wallet.Wallet;
@@ -120,7 +121,9 @@ public class BlockchainService extends LifecycleService {
 
     private BlockStore blockStore;
     private File blockChainFile;
+    private File validHashStoreFile;
     private BlockChain blockChain;
+    private ValidHashStore validHashStore;
     @Nullable
     private PeerGroup peerGroup;
 
@@ -484,7 +487,7 @@ public class BlockchainService extends LifecycleService {
     @Override
     public IBinder onBind(final Intent intent) {
         log.debug(".onBind()");
-
+        super.onBind(intent);
         return mBinder;
     }
 
@@ -508,6 +511,7 @@ public class BlockchainService extends LifecycleService {
         config = application.getConfiguration();
         addressBookDao = AppDatabase.getDatabase(application).addressBookDao();
         blockChainFile = new File(getDir("blockstore", Context.MODE_PRIVATE), Constants.Files.BLOCKCHAIN_FILENAME);
+        validHashStoreFile = new File(getDir("blockstore", Context.MODE_PRIVATE), Constants.Files.VALIDHASHSTORE_FILENAME);
 
         peerConnectivityListener = new PeerConnectivityListener();
 
@@ -572,7 +576,13 @@ public class BlockchainService extends LifecycleService {
                 }
 
                 try {
-                    blockChain = new BlockChain(Constants.NETWORK_PARAMETERS, wallet, blockStore);
+                    validHashStore = new ValidHashStore(validHashStoreFile);
+                } catch (final IOException x) {
+                    throw new Error("valid hash store cannot be created", x);
+                }
+
+                try {
+                    blockChain = new BlockChain(Constants.NETWORK_PARAMETERS, wallet, blockStore, validHashStore);
                 } catch (final BlockStoreException x) {
                     throw new Error("blockchain cannot be created", x);
                 }
@@ -853,6 +863,7 @@ public class BlockchainService extends LifecycleService {
         if (resetBlockchainOnShutdown) {
             log.info("removing blockchain");
             blockChainFile.delete();
+            validHashStoreFile.delete();
         }
 
         scheduleStart(application);
