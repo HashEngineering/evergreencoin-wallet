@@ -1,3 +1,7 @@
+Evergreencoin v6.28
+
+
+--------------------
 v6.27-v6.28
 
 * Use the Room Persistence Library for access to the address book database.
@@ -752,7 +756,7 @@ v3.41-v3.43
 
 v3.40
 
-* Support for µBTC denomination, for people who are used to low valued currencies.
+* Support for µEGC denomination, for people who are used to low valued currencies.
 * Always use BIP70 when sending payments directly via Bluetooth.
 * Small bugfixes.
 
@@ -794,7 +798,7 @@ v3.32
 
 v3.31
 
-* Default denomination has changed to millibitcoin (mBTC).
+* Default denomination has changed to millibitcoin (mEGC).
 * Cross-calculated exchange rates for currencies without Bitcoin volume. Thanks to BitcoinAverage.
 * Better handling of errors when sending coins, specifically when funds are exceeded.
 * Labs: Uses BIP70 payment protocol for tap-to-pay and scan-to-pay, if enabled in the settings.
@@ -830,7 +834,7 @@ v3.26
 
 v3.25
 
-* support for mBTC denomination
+* support for mEGC denomination
 * also use weighted exchange rates from BitcoinAverage
 * fixed issue with camera autofocus on some Samsung Galaxy devices
 

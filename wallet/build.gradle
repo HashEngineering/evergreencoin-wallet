@@ -19,7 +19,7 @@ dependencies {
     compile "android.arch.persistence:db:1.1.1"
     compile "android.arch.persistence.room:runtime:1.1.1"
     annotationProcessor "android.arch.persistence.room:compiler:1.1.1"
-    compile 'org.bitcoinj:bitcoinj-core:0.14.7'
+    compile 'org.evergreencoinj:evergreencoinj-core:0.14.7'
     compile 'com.google.protobuf:protobuf-java:2.6.1'
     compile 'com.google.guava:guava:24.1-android'
     compile 'com.google.zxing:core:3.3.3'
@@ -33,7 +33,7 @@ dependencies {
 }
 
 ext {
-    archivesBaseName = 'bitcoin-wallet'
+    archivesBaseName = 'evergreencoin-wallet'
 }
 
 android {
@@ -46,7 +46,7 @@ android {
     }
 
     defaultConfig {
-        applicationId 'de.schildbach.wallet_test'
+        applicationId 'com.hashengineering.evergreencoin.wallet'
         generatedDensities = ['hdpi', 'xhdpi']
 
         dexOptions {
@@ -54,7 +54,7 @@ android {
         }
 
         ndk {
-            abiFilters 'armeabi-v7a', 'x86'
+            abiFilters 'armeabi-v7a', 'x86', 'x86_64'
         }
 
         externalNativeBuild {
@@ -105,10 +105,10 @@ android {
     }
 }
 
-task svgToPngMipmap(type: fr.avianey.androidsvgdrawable.gradle.SvgDrawableTask) {
+/*task svgToPngMipmap(type: fr.avianey.androidsvgdrawable.gradle.SvgDrawableTask) {
     from = files('graphics/mipmap')
     to = file('res')
     targetedDensities = ['hdpi', 'xhdpi', 'xxhdpi', 'xxxhdpi']
     outputFormat = 'PNG'
     outputType = 'mipmap'
-}
+}*/
