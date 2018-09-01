@@ -4,16 +4,16 @@
 	<string name="help_wallet">
 <![CDATA[
 		<p>
-			V ľavej hornej časti obrazovky je Vaša aktuálna Evergreencoin adresa, túto adresu potrebuje poznať odosielateľ, aby Vám mohol poslať Evergreencoiny.
+			V ľavej hornej časti obrazovky je Vaša aktuálna EverGreenCoin adresa, túto adresu potrebuje poznať odosielateľ, aby Vám mohol poslať EverGreenCoiny.
 			Kliknutím na adresu ju môžte zmeniť.
 		</p>
 		<p>
-			QR kód na pravej strane obsahuje Vašu Evergreencoin adresu, odosielateľ ho môže jednoducho naskenovať.
+			QR kód na pravej strane obsahuje Vašu EverGreenCoin adresu, odosielateľ ho môže jednoducho naskenovať.
 			Kliknite na QR kód, aby ste ho zväčšili.
 		</p>
 		<p>
 			V strede obrazovky je zobrazený aktuálny zostatok.
-			Hodnota Vašich Evergreencoinov je zobrazená aj v inej zvolenej mene.
+			Hodnota Vašich EverGreenCoinov je zobrazená aj v inej zvolenej mene.
 			Kliknutím na zostatok zobrazíte zoznam cudzích mien, následným kliknutím na menu ju môžte nastaviť ako predvolenú.
 		</p>
 		<p>
@@ -22,7 +22,7 @@
 			Kliknutím na transakciu môžete pridať danú adresu do adresára.
 		</p>
 		<p>
-			Kliknutím na tlačidlá naspodku môžte poslať alebo vyžiadať Evergreencoiny.
+			Kliknutím na tlačidlá naspodku môžte poslať alebo vyžiadať EverGreenCoiny.
 			Ďalšie možnosti sú v ponuke nastavení.
 		</p>
 	]]>
@@ -30,18 +30,18 @@
 	<string name="help_request_coins">
 <![CDATA[
 		<p>
-			Na tejto obrazovke môžete vyžiadať Evergreencoiny od niekoho iného (kto má nainštalovanú aplikáciu Evergreencoin Wallet).
+			Na tejto obrazovke môžete vyžiadať EverGreenCoiny od niekoho iného (kto má nainštalovanú aplikáciu EverGreenCoin Wallet).
 		</p>
 		<p>
-			Najprv zadajte sumu Evergreencoinov, ktoré chcete vyžiadať.
+			Najprv zadajte sumu EverGreenCoinov, ktoré chcete vyžiadať.
 		</p>
 		<p>
 			Potom dajte druhej strane naskenovať vygenerovaný QR kód
 			alebo môžte svoju žiadosť poslať použitím tlačidla zdieľať.
-			Druhá strana potom klikne na Evergreencoin URL.
+			Druhá strana potom klikne na EverGreenCoin URL.
 		</p>
 		<p>
-			V oboch prípadoch druhá strana uvidí predvyplnenú obrazovku na odosielanie Evergreencoinov.
+			V oboch prípadoch druhá strana uvidí predvyplnenú obrazovku na odosielanie EverGreenCoinov.
 			Ak s transakciou súhlasí, tak ju iba potvrdí.
 		</p>
 	]]>
@@ -49,17 +49,17 @@
 	<string name="help_send_coins">
 <![CDATA[
 		<p>
-			Práve ste začali proces odosielania Evergreencoinov.
-			Dostali ste sa sem z hlavnej obrazovky alebo kliknutím na Evergreencoin adresu v prehliadači.
+			Práve ste začali proces odosielania EverGreenCoinov.
+			Dostali ste sa sem z hlavnej obrazovky alebo kliknutím na EverGreenCoin adresu v prehliadači.
 		</p>
 		<p>
 			Najprv zadajte adresu, na ktorú chcete odoslať platbu.
 			Ak sa adresa nachádza v adresári, tak sa automaticky doplní.
-			Kliknutím na ikonu fotoaparátu môžete naskenovať QR kód s Evergreencoin adresou alebo požiadavkou na zaplatenie.
+			Kliknutím na ikonu fotoaparátu môžete naskenovať QR kód s EverGreenCoin adresou alebo požiadavkou na zaplatenie.
 		</p>
 		<p>
-			Ďalej vidíte koľko Evergreencoinov môžete aktuálne minúť.
-			Rozdiel medzi zostatkom na hlavnej obrazovke a počtom Evergreencoinov, ktoré môžete minúť tvoria nepotvrdené transakcie.
+			Ďalej vidíte koľko EverGreenCoinov môžete aktuálne minúť.
+			Rozdiel medzi zostatkom na hlavnej obrazovke a počtom EverGreenCoinov, ktoré môžete minúť tvoria nepotvrdené transakcie.
 		</p>
 		<p>
 			Nakoniec zadajte sumu platby.
@@ -82,8 +82,8 @@
 			<b>Dôležité informácie o bezpečnosti:</b>
 		</p>
 		<p>
-			Evergreencoiny sú uložené na Vašom zariadení.
-			<b>Ak zariadenie stratíte, prídete o všetky svoje Evergreencoiny.</b>
+			EverGreenCoiny sú uložené na Vašom zariadení.
+			<b>Ak zariadenie stratíte, prídete o všetky svoje EverGreenCoiny.</b>
 		</p>
 		<p>
 			To znamená, že by ste mali <b>zálohovať svoju peňaženku</b>!
@@ -91,12 +91,12 @@
 			Svoju zálohu bezpečne uchovajte a nezabudnite heslo.
 		</p>
 		<p>
-			<b>Pred odinštalovaním</b> (alebo vymazaním dát/obnovením továrenských nastavení), <b>odošlite svoje Evergreencoiny do inej peňaženky</b>.
-			Inak o svoje Evergreencoiny prídete.
+			<b>Pred odinštalovaním</b> (alebo vymazaním dát/obnovením továrenských nastavení), <b>odošlite svoje EverGreenCoiny do inej peňaženky</b>.
+			Inak o svoje EverGreenCoiny prídete.
 		</p>
 		<p>
 			<b>Platby sa nedajú stornovať</b>.
-			Ak pošlete svoje Evergreencoiny na nesprávnu adresu, je takmer nemožné získať ich späť.
+			Ak pošlete svoje EverGreenCoiny na nesprávnu adresu, je takmer nemožné získať ich späť.
 		</p>
 		<p>
 			<b>Chráňte si svoje zariadenie!</b>

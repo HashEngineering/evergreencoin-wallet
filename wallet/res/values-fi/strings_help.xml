@@ -3,11 +3,11 @@
   <string name="help_wallet">
 <![CDATA[
 		<p>
-			Näytön vasemmassa yläkulmassa on näkyvillä saldosi Evergreencoineina ja yhtenä valittuna kansainvälisenä valuuttana.
+			Näytön vasemmassa yläkulmassa on näkyvillä saldosi EverGreenCoineina ja yhtenä valittuna kansainvälisenä valuuttana.
 			Napauta mennäksesi kansainvälisten valuuttojen listaan, ja napauta yhtä valuutoista valitaksesi sen oletukseksi.
 		</p>
 		<p>
-			QR-koodi oikealla yläreunassa sisältää tämänhetkisen Evergreencoin-osoitteesi ja sitä voidaan käyttää maksajan skannattavaksi.
+			QR-koodi oikealla yläreunassa sisältää tämänhetkisen EverGreenCoin-osoitteesi ja sitä voidaan käyttää maksajan skannattavaksi.
 			Napauta QR-koodia nähdäksesi siitä suuremman version.
 		</p>
 		<p>
@@ -24,10 +24,10 @@
 <![CDATA[
 		<p>
 			Käyttämällä tätä ikkunaa voit pyytää kolikoita maksajalta.
-			Maksajalla tulisi olla jo Evergreencoin-lompakko asennettuna.
+			Maksajalla tulisi olla jo EverGreenCoin-lompakko asennettuna.
 		</p>
 		<p>
-			Aluksi voit syöttää määrän Evergreencoineina jonka haluat pyytää.
+			Aluksi voit syöttää määrän EverGreenCoineina jonka haluat pyytää.
 		</p>
 		<p>
 			Seuraavaksi voit joko skannauttaa QR-koodisi maksajalla,
@@ -45,7 +45,7 @@
 			Olet käynnistänyt kolikoiden lähetysprosessin.
 		</p>
 		<p>
-			Syötä aluksi Evergreencoin-osoite, johon maksetaan.
+			Syötä aluksi EverGreenCoin-osoite, johon maksetaan.
 			Osoite täyttyy automaattisesti jo tunnetuista osoitteista osoitekirjassasi.
 			Voit myös skannata vastaanottajan esittämän QR-koodin painamalla kameranäppäintä.
 		</p>
@@ -57,7 +57,7 @@
 		</p>
 		<p>
 			Voit luoda maksun ollessasi offline-tilassa.
-			Se lähtetään seuraavassa Evergreencoin-lompakon käynnistyksen yhteydessä.
+			Se lähtetään seuraavassa EverGreenCoin-lompakon käynnistyksen yhteydessä.
 			Jos haluat maksun käsiteltäväksi mahdollisimman nopeasti, varmista, että olet hyvässä yhteydessä (esim. WLAN).
 		</p>
 		<p>
@@ -72,8 +72,8 @@
 			<b>Tärkeitä turvallisuusohjeita:</b>
 		</p>
 		<p>
-			Evergreencoinit on tallennettu laitteeseesi.
-			<b>Jos kadotat sen, menetät Evergreencoinisi.</b>
+			EverGreenCoinit on tallennettu laitteeseesi.
+			<b>Jos kadotat sen, menetät EverGreenCoinisi.</b>
 		</p>
 		<p>
 			Tämä tarkoittaa, että sinun on <b>varmuuskopioitava lompakkosi</b>!
@@ -81,12 +81,12 @@
 			Pidä varmuuskopioisi turvassa ja muista salasanasi.
 		</p>
 		<p>
-			<b>Ennen sovelluksen poistoa</b> (tai sovellustietojen/laitteen nollausta), <b>siirrä Evergreencoinisi muuhun lompakkoon</b>.
-			Jäljelle jääneet Evergreencoinit katoavat.
+			<b>Ennen sovelluksen poistoa</b> (tai sovellustietojen/laitteen nollausta), <b>siirrä EverGreenCoinisi muuhun lompakkoon</b>.
+			Jäljelle jääneet EverGreenCoinit katoavat.
 		</p>
 		<p>
 			<b>Maksut ovat peruuttamattomia</b>.
-			Jos lähetät Evergreencoinisi tyhjyyteen, ei ole juuri mitään mahdollisuutta saada niitä takaisin.
+			Jos lähetät EverGreenCoinisi tyhjyyteen, ei ole juuri mitään mahdollisuutta saada niitä takaisin.
 		</p>
 		<p>
 			<b>Pidä laitteesi turvassa!</b>
@@ -105,13 +105,13 @@
 			<b>Teknisiä tietoja:</b>
 		</p>
 		<p>
-			Evergreencoin-lompakko on SPV/kevytlompakko, joka seuraa suurinta ketjua enimmällä vahvistustyöllä (joskus myös kutsutaan nimellä \"pisin ketju\", \"voittava ketju\" tai \"Evergreencoin-Blockchain\").
+			EverGreenCoin-lompakko on SPV/kevytlompakko, joka seuraa suurinta ketjua enimmällä vahvistustyöllä (joskus myös kutsutaan nimellä \"pisin ketju\", \"voittava ketju\" tai \"EverGreenCoin-Blockchain\").
 			Vastaanotat ainoastaan saapuvia rahansiirtoja ja sinulla on mahdollisuus maksaa kyseisessä ketjussa.
-			Mitään takuuta ei voida antaa Evergreencoineista pienemmissä ketjuissa, jotka ovat ketjuja vähemmällä vahvistustyöllä.
+			Mitään takuuta ei voida antaa EverGreenCoineista pienemmissä ketjuissa, jotka ovat ketjuja vähemmällä vahvistustyöllä.
 		</p>
 		<p>
 			Aiemmin pienimmät ketjut ovat aina muuttuneet turhiksi erittäin pian.
-			Jos haluat seurata pienempää ketjua kaikesta huolimatta, sinua neuvotaan käyttämään \"luotettu vertainen\"-ominaisuutta yhdistääksesi ainoastaan Evergreencoind-implementaatioon joka pakottaa halutun ketjun.
+			Jos haluat seurata pienempää ketjua kaikesta huolimatta, sinua neuvotaan käyttämään \"luotettu vertainen\"-ominaisuutta yhdistääksesi ainoastaan EverGreenCoind-implementaatioon joka pakottaa halutun ketjun.
 			Jos verkko lompakkosi ja luotetun vertaisen välillä ei ole luotettava, käytä VPN:aa varmentaaksesi yhteyden.
 		</p>
 	]]></string>

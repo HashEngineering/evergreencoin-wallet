@@ -4,11 +4,11 @@
 	<string name="help_wallet">
 <![CDATA[
 		<p>
-			Po lewej górnej stronie ekranu wyświetlany jest Twój aktualnie wybrany adres Evergreencoin, który inne osoby muszą znać żeby wysłać Ci Evergreencoin.
+			Po lewej górnej stronie ekranu wyświetlany jest Twój aktualnie wybrany adres EverGreenCoin, który inne osoby muszą znać żeby wysłać Ci EverGreenCoin.
 			Naciśnij żeby, go zmienić.
 		</p>
 		<p>
-			Kod QR po prawej zawiera Twój adres Evergreencoin i może zeskanowany przez inną osobę.
+			Kod QR po prawej zawiera Twój adres EverGreenCoin i może zeskanowany przez inną osobę.
 			Naciśnij na kod QR żeby otrzymać jego większą wersje.
 		</p>
 		<p>
@@ -30,18 +30,18 @@
 	<string name="help_request_coins">
 <![CDATA[
 		<p>
-			Przy pomocy tego dialogu, możesz wysłać prośbę o Evergreencoiny do innej osoby, tak jakbyś wystawił jej rachunek do zapłacenia. Osoba ta powinna mieć zainstalowany Evergreencoin Wallet.
+			Przy pomocy tego dialogu, możesz wysłać prośbę o EverGreenCoiny do innej osoby, tak jakbyś wystawił jej rachunek do zapłacenia. Osoba ta powinna mieć zainstalowany EverGreenCoin Wallet.
 		</p>
 		<p>
-			U góry, wpisz kwotę Evergreencoin, o którą chcesz zapytać.
+			U góry, wpisz kwotę EverGreenCoin, o którą chcesz zapytać.
 		</p>
 		<p>
 			Potem osoba wczyta wytworzony kod QR,
 			albo Ty możesz wysłać rachunek za pomocą guzika Opublikuj na listwie menu.
-			Odbiorca będzie musiał otworzyć Evergreencoin URL zawarty w wysłanej wiadomości.
+			Odbiorca będzie musiał otworzyć EverGreenCoin URL zawarty w wysłanej wiadomości.
 		</p>
 		<p>
-			Osoba, która otrzymała wysłane zapytanie otrzyma gotowy i wypełniony formularz wysyłania Evergreencoinów.
+			Osoba, która otrzymała wysłane zapytanie otrzyma gotowy i wypełniony formularz wysyłania EverGreenCoinów.
 			Jedyne co będzie musiała zrobić to potwierdzenie transakcji.
 		</p>
 	]]>
@@ -50,15 +50,15 @@
 <![CDATA[
 		<p>
 			Zainicjowałeś proces wysyłania monet.
-			Przyszedłeś tutaj przez główny ekran albo naciskając na Evergreencoin URL w Twojej mobilnej przeglądarce.
+			Przyszedłeś tutaj przez główny ekran albo naciskając na EverGreenCoin URL w Twojej mobilnej przeglądarce.
 		</p>
 		<p>
-			Wpisz adres Evergreencoin na który ma wpłynąć zapłata.
+			Wpisz adres EverGreenCoin na który ma wpłynąć zapłata.
 			Wyświetlone zostaną podpowiedzi adresu z danych Twojej książki adresowej.
-			Możesz też skanować kody QR z adresami Evergreencoin albo zapytaniami Evergreencoin naciskając guzik QR w menu.
+			Możesz też skanować kody QR z adresami EverGreenCoin albo zapytaniami EverGreenCoin naciskając guzik QR w menu.
 		</p>
 		<p>
-			Poniżej widzisz ile Evergreencoin możesz wydać w tym momencie.
+			Poniżej widzisz ile EverGreenCoin możesz wydać w tym momencie.
 			Rożnica ze stanem konta na głównym ekranie wynika z jeszcze nie potwierdzonych monet, które nie mogą jeszcze zostać wydane.
 		</p>
 		<p>
@@ -79,20 +79,20 @@
 	<string name="help_safety">
 <![CDATA[
 		<p>
-			<b>Pare słów o bezpieczeństwie twoich Evergreencoin:</b>
+			<b>Pare słów o bezpieczeństwie twoich EverGreenCoin:</b>
 		</p>
 		<p>
-			Evergreencoin w Evergreencoin Wallet są magazynowane na urządzeniu.
-			<b>Jak zgubisz swoje urządzenie, zgubisz też swój portfel i Evergreencoiny.</b>
+			EverGreenCoin w EverGreenCoin Wallet są magazynowane na urządzeniu.
+			<b>Jak zgubisz swoje urządzenie, zgubisz też swój portfel i EverGreenCoiny.</b>
 			Zupełnie jak pieniądze w Twoim fizycznym portfelu.
 		</p>
 		<p>
-			<b>Zanim odinstalujesz Evergreencoin Wallet</b> (albo wymażesz dane aplikacji/wyczyścisz swoje urządzenie), <b>przetransferuj twoje Evergreencoin na inny portfel</b>.
-			Każdy pozostały Evergreencoin będzie stracony.
+			<b>Zanim odinstalujesz EverGreenCoin Wallet</b> (albo wymażesz dane aplikacji/wyczyścisz swoje urządzenie), <b>przetransferuj twoje EverGreenCoin na inny portfel</b>.
+			Każdy pozostały EverGreenCoin będzie stracony.
 		</p>
 		<p>
 			<b>Żadne transakcje nie mogą zostać cofnięte</b>.
-			Jeżeli wyślesz swoje Evergreencoiny, nie będzie już możliwości żeby je odzyskać, dopóki nie znasz odbiorcy, który musi godzić się na ich odesłanie.
+			Jeżeli wyślesz swoje EverGreenCoiny, nie będzie już możliwości żeby je odzyskać, dopóki nie znasz odbiorcy, który musi godzić się na ich odesłanie.
 		</p>
 		<p>
 			<b>Uważaj na swoje urządzenie Android!</b>
@@ -101,7 +101,7 @@
 		</p>
 		<p>
 			Utrzymuj niskie ryzyko!
-			<b>Używaj Evergreencoin Wallet do przetrzymywania jedynie małych ilości Evergreencoin</b> do użytku codziennego.
+			<b>Używaj EverGreenCoin Wallet do przetrzymywania jedynie małych ilości EverGreenCoin</b> do użytku codziennego.
 		</p>
 	]]>
 	</string>
